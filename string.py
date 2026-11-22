@@ -23,9 +23,8 @@ print(text[6])
 for x in students:
     print(x)
 # Looping through a string
-for demo in text:
-    pass
-    # print(demo)
+for pat in text:
+    print(pat)
 # Length of a string using len()
 # print(len(text))
 # print(len(txt))

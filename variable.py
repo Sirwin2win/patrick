@@ -1,7 +1,7 @@
 '''  Ways of choosing a good variable name
-1. Camel Case e.g firstName="Jonh" ;lastName = "Doe"
-2. Pascal Case e.g FirstName="John"; LastName="Doe"
-3. Snake Case e.g first_name="John"; last_name="Doe"
+1. Camel Case e.g firstNameDetails="Jonh" ;lastName = "Doe"
+2. Pascal Case e.g FirstNameDetails="John"; LastName="Doe"
+3. Snake Case e.g first_name_details="John"; last_name="Doe"
 Note: Variable names are case sensitive e.g name="John Doe" is not the same as Name="John Doe"
 '''
 name = "John Doe"
@@ -17,3 +17,7 @@ def greet():
     print("Hola, "+afa)
 greet()
 print(name)
+d=f=g=99
+print(d,f,g)
+a, b, c = 100, 200, 300
+print(d,f,g,a,b,c)
